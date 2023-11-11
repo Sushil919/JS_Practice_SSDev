@@ -24,3 +24,12 @@
 // When working with money :
 // 1. Do the calculation in cents
 // 2. Convert back to dollars
+
+//Math.round
+
+// Math.round(2.2) -> 2
+// Math.round(2.8) -> 3
+
+//10% tax
+
+// ((2095 + 799) * 0.1) / 100  = 2.894 
