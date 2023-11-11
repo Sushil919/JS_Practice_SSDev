@@ -25,11 +25,14 @@
 // 1. Do the calculation in cents
 // 2. Convert back to dollars
 
-//Math.round
+//Math.round => round to the nearest integer
 
 // Math.round(2.2) -> 2
 // Math.round(2.8) -> 3
 
 //10% tax
 
-// ((2095 + 799) * 0.1) / 100  = 2.894 
+// ((2095 + 799) * 0.1) / 100  = 2.894
+
+//round the calculated tax
+// Math.round((2095 + 799) * 0.1) / 100 => 2.89
